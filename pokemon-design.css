@@ -1,0 +1,142 @@
+/*
+    Name: Marcos Rivera
+    Class: CIS 4004
+    Date: 3/3/2026
+    Assignment: Asynchronous JavaScript and Fetch
+*/
+
+body
+{
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background: #bfe3ee;
+    display: flex;
+    justify-content: center;
+    padding: 24px 12px;
+}
+
+.card
+{
+    width: 520px;
+    background: #fff;
+    border: 6px solid #d19c22;
+    border-radius: 36px;
+    padding: 24px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2
+{
+    margin: 0 0 6px 0;
+    font-weight: normal;
+}
+
+.row
+{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+input[type="text"]
+{
+    width: 220px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+button
+{
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#pokeImage
+{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: 10px auto 12px;
+    display: block;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.movesGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 14px 0;
+    align-items: center;
+}
+
+select
+{
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+}
+
+#status
+{
+    margin: 10px 0;
+    min-height: 18px;
+    font-size: 14px;
+}
+
+.muted
+{
+    color: #666;
+    font-size: 13px;
+}
+
+.teamBox
+{
+    margin-top: 14px;
+    border: 2px solid #000;
+    text-align: left;
+}
+
+.teamRow
+{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 10px;
+    padding: 10px;
+    border-top: 2px solid #000;
+    align-items: center;
+}
+
+.teamRow:first-child
+{
+    border-top: none;
+}
+
+.teamRow img
+{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+ul
+{
+    margin: 0;
+    padding-left: 18px;
+}
+
+.controlsBar
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 8px;
+}

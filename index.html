@@ -1,0 +1,60 @@
+<!-- 
+    * Name: Marcos Rivera
+    * Class: CIS 4004
+    * Date: 3/3/2026
+    * Assignment: Asynchronous JavaScript and Fetch
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokemon Team Builder</title>
+  <link rel="stylesheet" href="pokemon-design.css">
+</head>
+
+<body>
+
+    <!-- Starting Screen. -->
+    <div class="card">
+        <h2>Name or ID</h2>
+
+        <div class="row">
+            <input id="pokeInput" type="text" placeholder="e.g. snorlax or 143" />
+            <button id="findBtn" type="button">Find</button>
+        </div>
+
+        <div id="status" class="muted"></div>
+
+
+        <!-- After Fetch Screen. -->
+        <img id="pokeImage" class="hidden" alt="Pokemon sprite" />
+
+        <audio id="pokeAudio" class="hidden" controls></audio>
+        <div id="audioNote" class="muted hidden"></div>
+
+        <div class="movesGrid hidden" id="movesArea">
+            <select id="move1"></select>
+            <select id="move2"></select>
+            <select id="move3"></select>
+            <select id="move4"></select>
+        </div>
+
+     <button id="addBtn" class="hidden" type="button">Add to Team</button>
+
+
+     <!-- Team Output Screen. -->
+     <div class="teamBox" id="teamBox" aria-label="Team list"></div>
+
+     <div class="controlsBar">
+        <button id="clearTeamBtn" type="button">Clear Team</button>
+     </div>
+    
+    </div>
+
+    <!-- Loading JS. -->
+     <script src="pokemon-scripting.js"></script>
+
+</body>
+</html>
