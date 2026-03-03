@@ -281,8 +281,12 @@ function renderTeam()
 function resetDisplay()
 {
     pokeImage.classList.add("hidden");
+    pokeImage.removeAttribute("src");
+    PokeImage.alt = "";
+    
     movesArea.classList.add("hidden");
     addBtn.classList.add("hidden");
+    
     pokeAudio.classList.add("hidden");
     audioNote.classList.add("hidden");
 }
@@ -296,4 +300,5 @@ function capitalize(str)
 {
     if (!str) return "";
     return str.charAt(0).toUpperCase() + str.slice(1);
+
 }
