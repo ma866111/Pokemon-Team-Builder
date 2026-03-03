@@ -282,7 +282,7 @@ function resetDisplay()
 {
     pokeImage.classList.add("hidden");
     pokeImage.removeAttribute("src");
-    PokeImage.alt = "";
+    pokeImage.alt = "";
     
     movesArea.classList.add("hidden");
     addBtn.classList.add("hidden");
@@ -302,3 +302,4 @@ function capitalize(str)
     return str.charAt(0).toUpperCase() + str.slice(1);
 
 }
+
