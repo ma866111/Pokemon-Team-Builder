@@ -9,7 +9,7 @@ body
 {
     margin: 0;
     font-family: "Times New Roman", Times, serif;
-    background: #bfe3ee;
+    background: #adb0b0;
     display: flex;
     justify-content: center;
     padding: 24px 12px;
@@ -19,7 +19,7 @@ body
 {
     width: 520px;
     background: #fff;
-    border: 6px solid #d19c22;
+    border: 6px solid #64087d;
     border-radius: 36px;
     padding: 24px;
     box-sizing: border-box;
